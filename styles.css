@@ -7,9 +7,9 @@
     --muted-2: #6f6f75;
     --border: #232326;
     --border-strong: #313135;
-    --accent: #ff5a2e;
-    --accent-fg: #0a0a0b;
-    --accent-soft: rgba(255, 90, 46, 0.12);
+    --accent: #3b82f6;
+    --accent-fg: #f5f5f4;
+    --accent-soft: rgba(59, 130, 246, 0.12);
     --radius: 12px;
     --radius-sm: 8px;
     --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -219,7 +219,7 @@ a {
 }
 
 .btn-primary:hover {
-    box-shadow: 0 12px 24px -8px rgba(255, 90, 46, 0.45);
+    box-shadow: 0 12px 24px -8px rgba(59, 130, 246, 0.45);
 }
 
 .btn-ghost {
@@ -304,7 +304,7 @@ a {
 .project-image {
     aspect-ratio: 16 / 9;
     background:
-        linear-gradient(135deg, rgba(255, 90, 46, 0.14), transparent 60%),
+        linear-gradient(135deg, rgba(59, 130, 246, 0.14), transparent 60%),
         var(--surface-2);
     background-color: var(--surface-2);
     display: grid;
@@ -318,7 +318,7 @@ a {
 
 .project-card:hover .project-image {
     background:
-        linear-gradient(135deg, rgba(255, 90, 46, 0.22), transparent 65%),
+        linear-gradient(135deg, rgba(59, 130, 246, 0.22), transparent 65%),
         var(--surface-2);
 }
 
